@@ -1,0 +1,120 @@
+#toolbar #urlbar-container {
+   box-sizing:border-box !important;
+   background:none !important;
+   z-index:1 !important;
+  border:0px !important;
+}
+
+#TabsToolbar {
+/*    font-family: "dina" !important; */
+/*    font-size:5pt; */
+   font-family: "artwiz lemon" !important;
+   border-width:0px !important;
+   border-style: solid;
+   border-color:rgb(28,28,28) !important;
+   margin-bottom:-4px !important;
+   margin-top:0px !important;
+   padding:0px !important;
+   margin-left:0vw !important;
+/*    color:#a9176f !important; */
+   color:white !important;
+}
+
+#TabsToolbar .titlebar-placeholder {
+   display: none !important;
+  border:0px !important;
+}
+
+.tabbrowser-tab[selected="true"]{
+   color: #a9176f !important;
+   background-color:#282828 !important;
+}
+
+.tab-background[selected="true"]
+{
+   background-attachment: none!important;
+	background-color: #282828!important;
+	background-image: none!important;
+	background-position: none!important;
+	background-repeat: none!important;
+	background-size: none!important;
+}
+
+#TabsToolbar, #tabbrowser-tabs, #nav-bar, #toolbar-menubar, #browser-panel {
+/*    background-color:rgb(28, 28, 28) !important; */
+  background-color:#282828 !important;
+  border:0px !important;
+}
+
+.tab-line {
+   display: none !important;
+}
+
+
+#PanelUI-button {
+   position:absolute;
+   top:2px;
+   left:0px;
+}
+
+
+
+#nav-bar {
+   border-width:1px !important;
+   border-style: solid;
+   border-color:rgb(28,28,28) !important;
+}
+#nav-bar {
+   margin-bottom:-1px !important;
+   margin-top:4px !important;
+   margin-right:0vw !important;
+   margin-left: -0.2vw!important;
+   padding-right: 0px !important;
+}
+
+#urlbar, #urlbar-container {
+/*    background-color:rgb(28,28,28) !important; */
+  background-color:#282828 !important;
+  border:0px !important;
+}
+
+#urlbar-container {
+   border:none !important;
+   top:0px;
+   padding-left: 28px !important;
+}
+
+#nav-bar, #urlbar-container, #urlbar, #TabsToolbar, #tabbrowser-tabs, brow {
+   min-width: unset !important;
+   width: unset !important;
+   max-width: unset !important;
+  border:0px !important;
+}
+
+
+#back-button 
+{
+   display: none !important;
+}
+#forward-button 
+{
+   display: none !important;
+}
+#new-tab-button
+{
+  display: none !important;
+}
+#alltabs-button
+{
+  display: none !important;
+}
+.tabbrowser-tab .tab-icon-image,
+.tabbrowser-tab .tab-throbber
+{
+/*   width:10px !important; height:10px !important;  */
+   display: none !important;
+}
+#PopupAutoCompleteRichResult
+{
+/*    display: none !important; */
+}

@@ -1,0 +1,11 @@
+@-moz-document url-prefix(about:blank) {*{background-color:#282828;}}
+@-moz-document url-prefix(about:newtab){
+	*{
+		background-color:#282828 !important;
+		overflow:hidden !important;
+	}
+	button
+	{
+		display:none !important;
+	}
+}
